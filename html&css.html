@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HMTLCSS</title>
+</head>
+<body> <!-- CSS pode ser adicionado a documentos HTML de 3 maneiras:
+
+Inline - usando o styleatributo dentro dos elementos HTML
+Interno - usando um <style>elemento na <head>seção
+Externo - usando um <link> elemento para vincular a um arquivo CSS externo (MELHOR JEITO)
+-->
+
+
+<!--CSS Embutido (usado apenas em um elemento HTML)-->
+
+<h1 style="color: blueviolet;">Cabeçalho azul-vioteta aplicado com CSS embutido.</h1>
+<p style="color: red;">Parágrafo aplicado com CSS embutido.</p>
+
+<!--CSS interno(eh usado para definir a página HTML como um todo usando no <head>)-->
+<!--Um CSS interno é definido na <head>seção de uma página HTML, dentro de um <style>elemento.-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {background-color: aqua;}
+        h1 {color: black;}
+        p {color: red;}
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Heading com css interno</h1>
+    <p>Parágrafo com css interno</p>
+    
+</body>
+</html>
+
+
+<!--CSS externo (utilizado para definir estilo a várias paginas html. utiliza-se um novo arquivo .css e eh adicionado um link no <head>)-->
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        
+        <h1>Heading com CSS externo</h1>
+        <p>Parágrafo com CSS externo</p>
+
+    </body>
+    </html>
+
+    <!--
+        Alguns conceitos CSS:
+       
+Use a color propriedade CSS para cores de texto
+Use a font-family propriedade CSS para fontes de texto
+Use a font-size propriedade CSS para tamanhos de texto
+Use a border propriedade CSS para bordas
+Use a padding propriedade CSS para espaço dentro da borda
+Use a margin propriedade CSS para espaço fora da borda
+    -->
+
+</body>
+</html>
