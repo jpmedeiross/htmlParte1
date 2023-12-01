@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cabeçalho de Tabela</title>
+    <style>
+        /*adicionando borda p/ tabela*/
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        /*colocando o cabeçalho p esquerda*/
+        th {
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <h2>Utilizando coluna como cabeçalho de tabela</h2>
+    <table style="width:100%">
+        <tr>
+          <th>Nome</th>
+          <td>Julio</td>
+          <td>Fernando</td>
+        </tr>
+        <tr>
+          <th>Sobrenome</th>
+          <td>Fernandes</td>
+          <td>Medeiros</td>
+        </tr>
+        <tr>
+          <th>Idade</th>  
+          <td>35</td>
+          <td>87</td>
+        </tr>
+      </table>
+
+    <h2>Cabeçalho p/ varias colunas</h2>
+    <table style="width: 100%;">
+        <tr>
+            <th colspan="2">Nome</th>
+            <th>Idade</th>
+        </tr>
+        <tr>
+            <td>Jonas</td>
+            <td>James</td>
+            <td>50</td>
+        </tr>
+        <tr>
+            <td>Eva</td>
+            <td>Jack</td>
+            <td>84</td>
+        </tr>
+    </table>
+
+    <h2>Legenda de tabela</h2>
+    <table style="width:100%">
+        <caption>Monthly savings</caption>
+        <tr>
+          <th>Month</th>
+          <th>Savings</th>
+        </tr>
+        <tr>
+          <td>January</td>
+          <td>$100</td>
+        </tr>
+        <tr>
+          <td>February</td>
+          <td>$50</td>
+        </tr>
+      </table>
+      
+</body>
+</html>
